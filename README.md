@@ -16,7 +16,7 @@ Steps to follow -
 
 5. upload license image in jpeg format
 
-for example  - you can donwload the image from this url
+for example  - you can download the image from this URL
 
  https://upload.wikimedia.org/wikipedia/commons/7/79/Californian_sample_driver%27s_license%2C_c._2019.jpg
 

@@ -10,7 +10,7 @@
 	<form enctype="multipart/form-data"	method="POST">
 		@csrf
 		<label>Select Document (JPEG, PNG)</label>
-		<input type="file" name="document" />
+		<input type="file" name="document" accept="image/jpeg,image/png,image/jpg" />
 		<input type="submit" name="submit" value="submit">
 	</form>
 </body>

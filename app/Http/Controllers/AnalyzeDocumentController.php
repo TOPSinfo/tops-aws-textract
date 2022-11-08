@@ -14,7 +14,7 @@ class AnalyzeDocumentController extends Controller
 
     public function store(Request $request){
         $validatedData = $request->validate([
-            'document' => 'required|image|mimes:jpg,png,jpeg,gif,svg|max:2048',
+            'document' => 'required|image|mimes:jpg,png,jpeg|max:2048',
         ]);
 
         $name = $request->file('document')->getClientOriginalName();
@@ -40,8 +40,6 @@ class AnalyzeDocumentController extends Controller
                     ],
                 ]
             ]);
-
-            //dd($result->get('IdentityDocuments'));
 
             $IdentityDocuments = $result->get('IdentityDocuments');
             echo "<table>";
